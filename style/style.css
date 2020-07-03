@@ -81,13 +81,13 @@ nav li {
 }
 
 .profile-item {
-    margin: 20px 10px;
+    margin: 20px auto;
     box-shadow: 0 12px 9px 0 rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     padding: 10px 9px;
     transition: all 0.7s;
     background-color: #eee;
-    flex: auto;
+    flex-basis: 18%;
 }
 
 /* animasi ketika di kursor berada di atasnya */
