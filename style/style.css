@@ -98,8 +98,8 @@ nav li {
 }
 
 .image img {
-    width: 130px;
-    height: 130px;
+    width: 150px;
+    height: 200px;
     border-radius: 10px;
     /* object-fit: cover;
     object-position: center; */
@@ -119,6 +119,7 @@ span {
         flex: auto;
         width: 50%;
         margin-bottom: 25px;
+        margin-right: 3px;
     }
 }
 
@@ -137,5 +138,15 @@ span {
     .title {
         width: 100%;
         margin-bottom: 10px;
+    }
+
+    .profile-item p {
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        hyphens: auto;
+    }
+
+    .image img {
+        width: 100%;   
     }
 }
